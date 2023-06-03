@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class PrincipalLimao {
     public static void main(String[] args) {
         LimaoEntrouNaRoda l = new LimaoEntrouNaRoda(10);
@@ -6,7 +8,8 @@ public class PrincipalLimao {
         boolean acabou = false;
         Pessoa p = null;
         while(!acabou){
-            int posicao = l.passaObjeto(14);
+            Random r = new Random();
+            int posicao = l.passaObjeto(r.nextInt(100 + 1));
             p = l.removePosicao(posicao);
             l.imprimeRoda();
             System.out.println("************");

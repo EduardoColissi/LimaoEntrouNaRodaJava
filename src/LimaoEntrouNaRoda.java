@@ -11,17 +11,8 @@ public class LimaoEntrouNaRoda {
     }
 
     public int passaObjeto(int x) {
-        if (head == null) {
-            return -1;
-        }
-
-        Node<Pessoa> current = head;
-
-        for (int i = 0; i < x; i++) {
-            current = current.getNext();
-        }
-
-        return indexOf(current);
+        int pos = x % quantidade;
+        return pos;
     }
 
     private Node<Pessoa> criarPessoas(int quantidadePessoas) {
@@ -44,12 +35,14 @@ public class LimaoEntrouNaRoda {
 
         Node<Pessoa> current = head;
 
-        for (int i = 0; i < x - 1; i++) {
+        for (int i = 0; i < x; i++) {
             current = current.getNext();
         }
 
         Node<Pessoa> removedNode = current.getNext();
         current.setNext(removedNode.getNext());
+
+        head = current.getNext();
         quantidade--;
 
         if (quantidade == 1) {
@@ -57,26 +50,6 @@ public class LimaoEntrouNaRoda {
         }
 
         return null;
-    }
-
-    private int indexOf(Node<Pessoa> node) {
-        if (head == null || node == null) {
-            return -1;
-        }
-
-        Node<Pessoa> current = head;
-        int index = 0;
-
-        while (current != node && index < quantidade) {
-            current = current.getNext();
-            index++;
-        }
-
-        if (index == quantidade) {
-            return -1;
-        }
-
-        return index;
     }
 
     public void imprimeRoda(){

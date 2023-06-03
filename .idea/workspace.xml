@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99abafa0-add4-4fd2-bfa5-db0576e35835" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LimaoEntrouNaRoda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LimaoEntrouNaRoda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrincipalLimao.java" afterDir="false" />
+    <list default="true" id="99abafa0-add4-4fd2-bfa5-db0576e35835" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LimaoEntrouNaRoda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LimaoEntrouNaRoda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrincipalLimao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrincipalLimao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,23 +67,26 @@
       <option name="presentableId" value="Default" />
       <updated>1685811451847</updated>
       <workItem from="1685811452941" duration="3317000" />
-      <workItem from="1685814788336" duration="966000" />
+      <workItem from="1685814788336" duration="1614000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1685816091638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685816091638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LimaoEntrouNaRoda.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Node" memberName="next" />
